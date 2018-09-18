@@ -4,7 +4,7 @@ export default ( phoneStr ) => {
         return '-'
     }
     const numbers = (phoneStr.match(/[0-9]/g)||[]).join('')
-    //empty or wrong phormat, return as it is
+    //empty or wrong format, return as it is
     if( numbers.length === 0 ) {
         return phoneStr
     } else {
